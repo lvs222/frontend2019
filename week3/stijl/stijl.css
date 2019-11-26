@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url('../images/126278.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav div {
+    background: white;
+    width: 2.5rem;
+    height: 1.5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div span {
+    height: .25rem;
+    width: 100%;
+    background: black;
+    display: block;
+}
+
+nav div span::before, nav div span::after {
+    position: absolute;
+    content: '';
+    height: .25rem;
+    width: 100%;
+    background-color: black;
+}
+
+nav div span::before {
+    top: 1px;
+}
+
+nav div span::after {
+    bottom: 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+}
+
+nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px black solid;
+}
+
+nav ul {
+    display: none;
+}
+
