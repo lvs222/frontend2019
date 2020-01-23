@@ -1,0 +1,531 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* HEADER */
+
+header {
+    background-image: url('../images/ajaxsparta.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-attachment: fixed;
+
+}
+
+header > a {
+    position: relative;
+    top: 16rem;
+    left: 1rem;
+    z-index: 2;
+}
+
+header a {
+    color: white;
+}
+
+/* NAVIGATIE + HAMBURGER MENU */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+nav div {
+    background: #cc0033;
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1rem;
+    border-radius: 50px;
+
+}
+
+
+nav div span {
+    height: .188rem;
+    width: 50%;
+    background: white;
+    display: block;
+    border-radius: 47px;
+}
+
+nav div span::before,
+nav div span::after {
+    position: absolute;
+    content: '';
+    height: .2rem;
+    width: 50%;
+    background-color: white;
+    border-radius: 50px;
+}
+
+nav div span::before {
+    top: 15px;
+}
+
+nav div span::after {
+    bottom: 15px;
+}
+
+/*nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+}*/
+
+nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+
+}
+
+nav ul {
+    display: none;
+}
+
+
+nav img {
+    max-width: 60px;
+}
+
+
+/* TYPOGRAFIE */
+
+
+h1 {
+    position: relative;
+    top: 16rem;
+    left: 1rem;
+    font-family: 'sansationregular';
+    font-weight: 400;
+    width: 95vw;
+}
+
+
+h1,
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+p,
+h3,
+a {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-size: 12px;
+    color: #737373;
+}
+
+
+/* ACTUEEL  MENU*/
+
+section img {
+
+    max-width: 7%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main section:nth-of-type(1) {
+    background: linear-gradient(#161616, #2a2a2a);
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main section:nth-of-type(2) {
+    display: none;
+    background: linear-gradient(#161616, #2a2a2a);
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+main section:nth-of-type(3) {
+    display: none;
+    background: linear-gradient(#161616, #2a2a2a);
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main section:nth-of-type(4) {
+    display: none;
+    background: linear-gradient(#161616, #2a2a2a);
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+main section h2 {
+    padding: 14px 0px;
+}
+
+/* ARTICLES */
+
+article {
+    background: white;
+    /*
+    padding: 1.2rem;
+    margin: 0.5em 1em;
+*/
+}
+
+article img {
+    max-width: 100%
+}
+
+main > article:first-of-type {
+    background-image: url(../images/IMG_7451.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 16rem;
+    /*    padding: 0 1.2rem 1.2rem 1.2rem;*/
+    margin: 0em 1.2rem 0 1.2rem;
+
+
+}
+
+main > article:nth-of-type(2) {
+    padding: 1.2rem;
+    /* margin: 0 1em .5m;*/
+    margin: 0em 1.2rem 0 1.2rem;
+}
+
+main > article:nth-of-type(3) {
+    padding: 1.2rem;
+    margin: 0.5em 1em;
+}
+
+main > article:nth-of-type(4) {
+    width: 150px;
+    height: 150px;
+    margin: 0.5em 1em;
+    background: url(../images/van%20boekel.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+}
+
+main > article:nth-of-type(5) {
+    width: 150px;
+    height: 150px;
+    margin: 0.5em 1em;
+    background: url(../images/ten%20hag%20na%20lille.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+}
+
+main > article:nth-of-type(6) {
+    background-image: url(../images/promes%20doelpunt.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 16rem;
+    /*    padding: 0 1.2rem 1.2rem 1.2rem;*/
+    margin: 0em 1.2rem 0 1.2rem;
+
+
+}
+
+main > article:nth-of-type(7) {
+    padding: 1.2rem;
+    /* margin: 0 1em .5m;*/
+    margin: 0em 1.2rem 0 1.2rem;
+}
+
+
+main > article:nth-of-type(8) {
+    padding: 1.2rem;
+    margin: 0.5em 1em;
+}
+
+main > article:nth-of-type(9) {
+    width: 150px;
+    height: 150px;
+    margin: 0.5em 1em;
+    background: url(../images/noa%20lang.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+}
+
+main > article:nth-of-type(10) {
+    width: 150px;
+    height: 150px;
+    margin: 0.5em 1em;
+    background: url(../images/naci%20unuvar.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+}
+
+main > article:nth-of-type(11) {
+    width: 150px;
+    height: 150px;
+    margin: 0.5em 1em;
+    background: url(../images/onder%2019.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+}
+
+
+.video {
+    width: 100%;
+}
+
+
+
+
+.actueel {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*    justify-content: flex-start;*/
+}
+
+.actueel::before,
+.actueel::after {
+    content: '';
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.actueel::before {
+    left: 0;
+    background-image: url('../images/round-left-button2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.actueel::after {
+    right: 0;
+    background-image: url('../images/round-left-button2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.actueel li {
+    color: white;
+    font-size: 20px;
+}
+
+
+.box {
+    padding: 12px 14px 12px 12px;
+    background: red;
+    color: white;
+    transform: rotate(-90deg);
+
+
+}
+
+#feedback {
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    position: fixed;
+    left: -1.4rem;
+    background: #cc0033;
+
+}
+
+
+
+.hashtag {
+    font-size: 12px;
+    color: #D50032;
+
+}
+
+
+
+
+
+button {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #D50032;
+    display: inline-flex;
+    justify-content: center;
+    padding: .8rem 3.4rem .8rem 1rem;
+    width: 100%;
+    border-color: #D50032;
+
+}
+
+body {
+    background-color: black;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 600px) {
+
+    .actueel::before,
+    .actueel::after {
+        display: none;
+    }
+
+    li {
+        list-style: none;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 16px;
+        color: black;
+
+    }
+
+    main section:nth-of-type(1) {
+        display: flex;
+        justify-content: space-evenly;
+        background: #cc0033;
+    }
+
+    main section:nth-of-type(2) {
+        display: flex;
+        background: #cccaca;
+    }
+
+    main section:nth-of-type(3) {
+        display: flex;
+        background: #cccaca;
+
+    }
+
+    main section:nth-of-type(4) {
+        display: flex;
+        background: #cccaca;
+
+    }
+
+    main div {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        margin: 1em;
+
+    }
+
+    .actueel li {
+        font-size: 16px;
+    }
+
+
+    .actueel,
+    .video,
+    .jeugd,
+    .wedstrijden {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem .8rem;
+        width: 14rem;
+        border-radius: .4rem;
+
+    }
+
+
+
+
+
+
+}
+
+@media (min-width: 900px) {
+
+    nav img {
+        max-width: 100%;
+
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        width: 100%;
+        height: 50px;
+        align-items: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 100px;
+        background: linear-gradient(#161616, #2a2a2a);
+
+
+    }
+
+    nav a {
+        color: white;
+        font-size: 16px;
+        padding: 16 15 13 15;
+        border-color: black;
+
+    }
+
+    nav div {
+        display: none;
+    }
+
+    h1 {
+        top: 9rem;
+        font-size: 36px;
+    }
+
+    header > a {
+        top: 9rem;
+    }
+
+    header {
+    top: 50%;
+    left: 50%;
+
+    }
+    main {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+
+
+
+}
