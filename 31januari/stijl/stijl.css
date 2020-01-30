@@ -1,0 +1,644 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*************************************************************************************************************************************
+                                        STYLING HEADING 
+***********************************************************************************************************************************/
+
+header {
+    background-image: url('../images/ajaxsparta.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-attachment: fixed;
+
+}
+
+header > a {
+    position: relative;
+    top: 22rem;
+    left: 1rem;
+    z-index: 2;
+}
+
+header a {
+    color: white;
+    font-size: 20px;
+}
+
+/*************************************************************************************************************************************
+                                        HAMBURGER MENU EN NAVIGATIE 
+***********************************************************************************************************************************/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+nav div {
+    background: #cc0033;
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1rem;
+    border-radius: 50px;
+
+}
+
+
+nav div span {
+    height: .188rem;
+    width: 50%;
+    background: white;
+    display: block;
+    border-radius: 47px;
+}
+
+nav div span::before,
+nav div span::after {
+    position: absolute;
+    content: '';
+    height: .2rem;
+    width: 50%;
+    background-color: white;
+    border-radius: 50px;
+}
+
+nav div span::before {
+    top: 15px;
+}
+
+nav div span::after {
+    bottom: 15px;
+}
+
+nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+
+}
+
+nav ul {
+    display: none;
+}
+
+
+nav img {
+    max-width: 60px;
+}
+
+
+/*************************************************************************************************************************************
+                                        TYPOGRAFIE 
+***********************************************************************************************************************************/
+
+h1 {
+    position: relative;
+    top: 22rem;
+    left: 1rem;
+    font-family: 'sansationregular';
+    font-weight: 400;
+    width: 95vw;
+}
+
+
+h1,
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p,
+h3,
+a {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-size: 12px;
+    color: #737373;
+}
+
+
+/*************************************************************************************************************************************
+                                        ACTUEEL MENU 
+***********************************************************************************************************************************/
+section img {
+
+    max-width: 7%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main section:nth-of-type(1) {
+    background: linear-gradient(#161616, #2a2a2a);
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main section:nth-of-type(2) {
+    display: none;
+    background: linear-gradient(#161616, #2a2a2a);
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+main section:nth-of-type(3) {
+    display: none;
+    background: linear-gradient(#161616, #2a2a2a);
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main section:nth-of-type(4) {
+    display: none;
+    background: linear-gradient(#161616, #2a2a2a);
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+main section h2 {
+    padding: 14px 0px;
+}
+
+/* ARTICLES */
+
+/*************************************************************************************************************************************
+                                        ALGEMEEN ARTICLE 
+***********************************************************************************************************************************/
+
+article {
+    background: white;
+}
+
+article img {
+    max-width: 100%
+}
+
+/*************************************************************************************************************************************
+                                        STYLING ONANA + TEKST 
+***********************************************************************************************************************************/
+
+main > article:first-of-type {
+    background-image: url(../images/IMG_7451.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 16rem;
+    margin: 0em 1.2rem 0 1.2rem;
+
+}
+
+main > article:nth-of-type(2) {
+    padding: 1.2rem;
+    margin: 0em 1.2rem 0 1.2rem;
+
+}
+
+/*************************************************************************************************************************************
+                                        STYLING DROMENLIJSTJE 
+***********************************************************************************************************************************/
+
+main > article:nth-of-type(3) {
+    padding: 1.2rem;
+    margin: 0.5em 1em;
+}
+
+/*************************************************************************************************************************************
+                                        STYLING VAN BOEKEL 
+***********************************************************************************************************************************/
+
+main > article:nth-of-type(4) {
+    background-image: url(../images/van%20boekel.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 16rem;
+    margin: 0em 1.2rem 0 1.2rem;
+}
+
+main > article:nth-of-type(5) {
+    padding: 1.2rem;
+    margin: 0em 1.2rem 0 1.2rem;
+
+}
+
+/*************************************************************************************************************************************
+                                        STYLING TEN HAG 
+***********************************************************************************************************************************/
+main > article:nth-of-type(6) {
+    background-image: url(../images/ten%20hag%20na%20lille.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 16rem;
+    margin: 0em 1.2rem 0 1.2rem;
+}
+
+
+main > article:nth-of-type(7) {
+    padding: 1.2rem;
+    margin: 0em 1.2rem 0 1.2rem;
+
+}
+
+/*************************************************************************************************************************************
+                                        STYLIN PROMES 
+***********************************************************************************************************************************/
+
+main > article:nth-of-type(8) {
+    background-image: url(../images/promes%20doelpunt.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 16rem;
+    margin: 0em 1.2rem 0 1.2rem;
+
+
+}
+
+main > article:nth-of-type(9) {
+    padding: 1.2rem;
+    margin: 0em 1.2rem 0 1.2rem;
+
+}
+
+/*************************************************************************************************************************************
+                                        STYLING VIEWING PARTY 
+***********************************************************************************************************************************/
+
+main > article:nth-of-type(10) {
+    padding: 1.2rem;
+    margin: 0.5em 1em;
+}
+
+
+/*************************************************************************************************************************************
+                                        ARTICLES NIET ZICHTBAAR OP MOBIEL 
+***********************************************************************************************************************************/
+main > article:nth-of-type(11) {
+    display: none;
+}
+
+main > article:nth-of-type(12) {
+    display: none;
+}
+
+
+/*************************************************************************************************************************************
+                                        STYLING BUTTON BLIJF OP DE HOOGTE
+***********************************************************************************************************************************/
+main section a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #D50032;
+}
+
+.video {
+    width: 100%;
+}
+
+/*************************************************************************************************************************************
+                                        ACTUEEL MENU
+***********************************************************************************************************************************/
+
+.actueel {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*    justify-content: flex-start;*/
+}
+
+.actueel::before,
+.actueel::after {
+    content: '';
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.actueel::before {
+    left: 0;
+    background-image: url('../images/round-left-button2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.actueel::after {
+    right: 0;
+    background-image: url('../images/round-left-button2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.actueel li {
+    color: white;
+    font-size: 20px;
+}
+
+
+.box {
+    padding: 12px 14px 12px 12px;
+    background: red;
+    color: white;
+    transform: rotate(-90deg);
+
+
+}
+
+#feedback {
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    position: fixed;
+    left: -1.4rem;
+    background: #cc0033;
+
+}
+
+.hashtag {
+    font-size: 12px;
+    color: #D50032;
+
+}
+
+/*************************************************************************************************************************************
+                                        STYLING BUTTON 
+***********************************************************************************************************************************/
+
+button {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #D50032;
+    display: inline-flex;
+    justify-content: center;
+    padding: .8rem 3.4rem .8rem 1rem;
+    width: 100%;
+    border-color: #D50032;
+
+}
+
+input:focus {
+    outline-width: 3px;
+    outline-style: dashed;
+    outline-color: #D50032;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+/*************************************************************************************************************************************
+                                        FOOTER 
+***********************************************************************************************************************************/
+
+footer {
+    background-color: #D50032;
+    padding: 50PX;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*************************************************************************************************************************************
+                                        STYLING MAIN TWEEDE PAGINA 
+***********************************************************************************************************************************/
+
+
+.tweedepagina {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.tweedepagina input {
+    border-color: #d0d0d0;
+    border-style: ridge;
+    width: 75%;
+    height: 40px;
+    margin-bottom: 28px;
+    margin-left: 28px;
+    text-indent: 14px;
+}
+
+.tweedepagina p {
+    margin-left: 28px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+input[type=radio] {
+
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.tweedepagina h2 {
+    color: #000000;
+    margin-bottom: 15px;
+    margin-left: 28px;
+    font-size: 14px;
+    top: 5px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+input[type=checkbox] {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+    position: absolute;
+    left: 7rem;
+    padding-top: 9.5rem;
+}
+
+.tweedepagina button {
+    padding: 10px;
+}
+
+/*************************************************************************************************************************************
+                                        MEDIA QUERIES 
+***********************************************************************************************************************************/
+
+@media (min-width: 600px) {
+
+    .actueel::before,
+    .actueel::after {
+        display: none;
+    }
+
+    li {
+        list-style: none;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 16px;
+        color: black;
+
+    }
+
+    main section:nth-of-type(1) {
+        display: flex;
+        justify-content: space-evenly;
+        background: #cc0033;
+    }
+
+    main section:nth-of-type(2) {
+        display: flex;
+        background: #cccaca;
+    }
+
+    main section:nth-of-type(3) {
+        display: flex;
+        background: #cccaca;
+
+    }
+
+    main section:nth-of-type(4) {
+        display: flex;
+        background: #cccaca;
+
+    }
+
+    main div {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        margin: 1em;
+
+    }
+
+    .actueel li {
+        font-size: 16px;
+    }
+
+
+    .actueel,
+    .video,
+    .jeugd,
+    .wedstrijden {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem .8rem;
+        width: 14rem;
+        border-radius: .4rem;
+
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+
+
+
+}
+
+@media (min-width: 900px) {
+
+    nav img {
+        max-width: 100%;
+
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        width: 100%;
+        height: 50px;
+        align-items: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 100px;
+        background: linear-gradient(#161616, #2a2a2a);
+
+
+    }
+
+    nav a {
+        color: white;
+        font-size: 16px;
+        padding: 16 15 13 15;
+        border-color: black;
+
+    }
+
+    nav div {
+        display: none;
+    }
+
+    h1 {
+        top: 16rem;
+        font-size: 36px;
+    }
+
+    header > a {
+        top: 16rem;
+    }
+
+    header {
+        top: 50%;
+        left: 50%;
+
+    }
+
+    main {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+    nav a:hover {
+        background-color: #cc0033;
+    }
+
+    input[type=checkbox] {
+        left: 10rem;
+        top: 5rem;
+
+    }

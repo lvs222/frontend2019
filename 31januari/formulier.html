@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Blijf op de hoogte!</title>
+    <link rel="stylesheet" href="stijl/stijl.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.ico">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <a href="homepage.html"><img src="./images/logo-ajax.svg" alt="logo of Ajax"></a>
+
+            <div>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="">Home</a> </li>
+                <li><a href="">Teams</a></li>
+                <li><a href="">Clubs</a></li>
+                <li><a href="">Wedstrijden & Tickets</a></li>
+                <li><a href="">Online Ajax Fanshop</a></li>
+                <li><a href=""><img src="./images/network2.png" alt="share"></a></li>
+                <li><a href=""><img src="./images/global.png" alt="taal kiezen"></a></li>
+                <li><a href=""><img src="./images/male.png" alt="inloggen"></a></li>
+                <li><a href=""><img src="./images/search%20(2).png" alt="zoeken"></a></li>
+
+            </ul>
+        </nav>
+        <h1>Blijf op de hoogte!</h1>
+    </header>
+
+    <main class='tweedepagina'>
+
+        <h2>Vul hieronder je gegevens in en blijf op de hoogte van kaartverkoop, acties en aanbiedingen!</h2>
+
+        <form action="./homepage.html">
+
+            <p>Geslacht
+                <input type="radio" name="geslacht" value="Man" checked="checked"> Man
+                <input type="radio" name="geslacht" value="Vrouw"> Vrouw
+            </p>
+            <p>Voornaam</p>
+            <input type="text" name="voornaam" placeholder="Voornaam">
+            <p>Tussenvoegsel</p>
+            <input type="text" name="tussenvoegsel" placeholder="Tussenvoegsel">
+            <p>Achternaam</p>
+            <input type="text" name="achternaam" placeholder="Achternaam">
+            <p>E-mailadres</p>
+            <input type="email" name="email" placeholder="E-mailadres">
+            <!-- ik weet dat input type=date niet door elke browser wordt ondersteund, maar google chrome pakt hem wel
+             en daar heb ik mee getest. -->
+            <p>Geboortedatum</p>
+            <input type="date" name="geboortedatum">
+            <p>Land</p>
+            <input type="text" name="land" placeholder="NEDERLAND">
+            <p>Postcode</p>
+            <input type="text" class="postcode" pattern="[0-9]{4}" placeholder="1111" />
+            <input type="text" class="postcode" pattern="[A-Z]{2}" placeholder="AA" />
+            <input type="checkbox">
+            <p>Ja, ik wil per e-mail nieuws en aanbiedingen van Partners van de Eredivisie ontvangen en
+             geef toestemming om mijn gegevens hiervoor over te dragen.</p>
+            <button>Verzenden</button>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>
